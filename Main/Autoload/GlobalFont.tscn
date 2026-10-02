@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgnafdilgkdbu"]
+
+[ext_resource type="Script" path="res://Main/Autoload/GlobalFont.gd" id="1_dbyx0"]
+[ext_resource type="LabelSettings" uid="uid://b8rh0jtpx613a" path="res://Res/LabelSetting/DefaultLabelSetting.tres" id="2_4r0ke"]
+
+[node name="GlobalFont" type="Node"]
+script = ExtResource("1_dbyx0")
+_label_setting = ExtResource("2_4r0ke")

@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://cejfcw1b1d1kt"]
+
+[ext_resource type="Script" path="res://Main/Interface/ProductionPanel/ProductionPrice/ProductionPrice.gd" id="1_4pn65"]
+[ext_resource type="LabelSettings" uid="uid://b6lotvw7b1txg" path="res://Res/LabelSetting/ValueLineLabelSetting.tres" id="2_fatyb"]
+
+[node name="ProductionPrice" type="Panel"]
+custom_minimum_size = Vector2(310, 40)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4pn65")
+
+[node name="Name" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Древесина: 50$"
+label_settings = ExtResource("2_fatyb")
+horizontal_alignment = 1
+vertical_alignment = 1

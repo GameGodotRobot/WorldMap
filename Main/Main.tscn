@@ -1,0 +1,36 @@
+[gd_scene load_steps=7 format=3 uid="uid://ca1r378yb5up3"]
+
+[ext_resource type="Script" path="res://Main/Main.gd" id="1_4xrn0"]
+[ext_resource type="PackedScene" uid="uid://db5e0ocg1sklb" path="res://Main/Map/Map.tscn" id="1_uvs4m"]
+[ext_resource type="Script" path="res://Main/Camera/Camera.gd" id="2_43lbi"]
+[ext_resource type="PackedScene" uid="uid://b11lum02tp6l8" path="res://Main/Interface/Interface.tscn" id="2_ge2wq"]
+[ext_resource type="PackedScene" uid="uid://dvcxmt4ergpq8" path="res://Main/SplashScreens/SplashScreens.tscn" id="4_dlwuo"]
+[ext_resource type="PackedScene" uid="uid://b30l11tyaf5i3" path="res://Main/SplashScreens/SplashScreen/SplashScreenDark.tscn" id="6_qip7g"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_4xrn0")
+
+[node name="MainMenu" type="Node" parent="."]
+
+[node name="Game" type="Node" parent="."]
+
+[node name="Map" parent="Game" instance=ExtResource("1_uvs4m")]
+
+[node name="Camera" type="Camera2D" parent="Game"]
+z_index = -1
+position = Vector2(4115, 1770)
+zoom = Vector2(0.5, 0.5)
+limit_left = 0
+limit_top = 0
+limit_right = 36000
+limit_bottom = 18000
+limit_smoothed = true
+position_smoothing_enabled = true
+editor_draw_limits = true
+editor_draw_drag_margin = true
+script = ExtResource("2_43lbi")
+
+[node name="Interface" parent="Game" instance=ExtResource("2_ge2wq")]
+
+[node name="SplashScreens" parent="." instance=ExtResource("4_dlwuo")]
+_SPLASH_SCREENS_PCKG = Array[PackedScene]([null, ExtResource("6_qip7g")])

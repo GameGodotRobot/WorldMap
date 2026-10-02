@@ -1,0 +1,10 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://b8rh0jtpx613a"]
+
+[ext_resource type="FontFile" uid="uid://c4e2bp6jpb67k" path="res://Res/Font/Bold.otf" id="1_ab14b"]
+
+[resource]
+line_spacing = -4.0
+font = ExtResource("1_ab14b")
+font_size = 10
+shadow_size = 2
+shadow_color = Color(0, 0, 0, 0.509804)

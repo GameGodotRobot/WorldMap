@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://bw477dcvr81qj"]
+
+[ext_resource type="FontFile" uid="uid://c4e2bp6jpb67k" path="res://Res/Font/Bold.otf" id="1_sv8hm"]
+
+[resource]
+line_spacing = -4.0
+font = ExtResource("1_sv8hm")
+font_size = 24

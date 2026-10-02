@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3 uid="uid://er0tl5fpjkg6"]
+
+[ext_resource type="Script" path="res://Main/Interface/ProductionPanel/ProductionPanel.gd" id="1_jft4j"]
+[ext_resource type="LabelSettings" uid="uid://bw477dcvr81qj" path="res://Res/LabelSetting/HeadlineLabelSetting.tres" id="1_kg67h"]
+
+[node name="ProductionPanel" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jft4j")
+
+[node name="Head" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = -10.0
+offset_bottom = 60.0
+grow_horizontal = 2
+
+[node name="HeadLine" type="Label" parent="Head"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Продукция"
+label_settings = ExtResource("1_kg67h")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Scroll" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 70.0
+offset_right = -10.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="List" type="GridContainer" parent="Scroll"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 0

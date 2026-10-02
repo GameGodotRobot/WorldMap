@@ -1,0 +1,61 @@
+[gd_scene load_steps=5 format=3 uid="uid://cirtcf6wc4h0m"]
+
+[ext_resource type="Script" path="res://Main/Interface/RegionPanel/RegionPanel.gd" id="1_t7i7c"]
+[ext_resource type="PackedScene" uid="uid://er0tl5fpjkg6" path="res://Main/Interface/ProductionPanel/ProductionPanel.tscn" id="2_q20w1"]
+[ext_resource type="PackedScene" uid="uid://dhj17511nj5i4" path="res://Main/Interface/MainPanel/MainPanel.tscn" id="3_0bnq3"]
+[ext_resource type="Texture2D" uid="uid://x67latokfs5c" path="res://icon.svg" id="4_ptrpo"]
+
+[node name="RegionPanel" type="Panel"]
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -360.0
+offset_top = 30.0
+offset_right = -20.0
+offset_bottom = -40.0
+grow_horizontal = 0
+mouse_force_pass_scroll_events = false
+script = ExtResource("1_t7i7c")
+
+[node name="Panels" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ProductionPanel" parent="Panels" instance=ExtResource("2_q20w1")]
+visible = false
+layout_mode = 1
+
+[node name="MainPanel" parent="Panels" instance=ExtResource("3_0bnq3")]
+layout_mode = 1
+
+[node name="Buttons" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_bottom = 1.0
+offset_left = -45.0
+offset_top = 5.0
+offset_bottom = -5.0
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="MainPanel" type="TextureButton" parent="Buttons"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+texture_normal = ExtResource("4_ptrpo")
+ignore_texture_size = true
+stretch_mode = 4
+
+[node name="ProductionPanel" type="TextureButton" parent="Buttons"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+texture_normal = ExtResource("4_ptrpo")
+ignore_texture_size = true
+stretch_mode = 0
+
+[connection signal="pressed" from="Buttons/MainPanel" to="." method="_on_main_panel_pressed"]
+[connection signal="pressed" from="Buttons/ProductionPanel" to="." method="_on_production_panel_pressed"]
