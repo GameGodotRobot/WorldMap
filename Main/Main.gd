@@ -20,7 +20,6 @@ func _ready()->void:
 
 func day_cycle()->void: 
 	## сложить все запросы в один для ускорения х3. Норма 4.5 секунды
-	print(Time.get_time_dict_from_system());
 	var sec:int = Time.get_ticks_msec()
 	
 	GameServer.building_queue_calc();
