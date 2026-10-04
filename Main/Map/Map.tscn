@@ -7285,12 +7285,12 @@ text = "Фолклендские острова"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="CountryName" parent="Countries/29" index="1"]
-offset_left = 7234.0
-offset_top = 14642.0
-offset_right = 7439.0
-offset_bottom = 14813.0
+offset_left = 7830.0
+offset_top = 14370.0
+offset_right = 8141.0
+offset_bottom = 14541.0
 theme_override_font_sizes/font_size = 40
-text = "Чили"
+text = "Аргентина"
 
 [editable path="Countries/2"]
 [editable path="Countries/2/Regions/2"]
