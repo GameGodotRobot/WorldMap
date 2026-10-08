@@ -9832,7 +9832,7 @@ _zoom = 6.0
 [node name="648" parent="Countries/41/Regions" index="0" instance=ExtResource("4_1uouy")]
 
 [node name="917" parent="Countries/41/Regions/648/Elements" index="0" instance=ExtResource("6_8ufhg")]
-polygon = PackedVector2Array(15137, 3754, 15117, 3754, 15107, 3748, 15088, 3746, 15086, 3730, 15081, 3718, 15102, 3703, 15158, 3683, 15167, 3696, 15166, 3723, 15174, 3735, 15172, 3760, 15158, 3755)
+polygon = PackedVector2Array(15137, 3754, 15117, 3754, 15107, 3748, 15088, 3746, 15086, 3730, 15081, 3718, 15102, 3703, 15141, 3693, 15159, 3693, 15166, 3701, 15166, 3723, 15174, 3735, 15172, 3760, 15158, 3755)
 
 [node name="RegionName" parent="Countries/41/Regions/648" index="1"]
 offset_left = 15088.0
@@ -9942,7 +9942,7 @@ label_settings = ExtResource("8_vxg7k")
 [node name="656" parent="Countries/41/Regions" index="8" instance=ExtResource("4_1uouy")]
 
 [node name="928" parent="Countries/41/Regions/656/Elements" index="0" instance=ExtResource("6_8ufhg")]
-polygon = PackedVector2Array(15167, 3697, 15166, 3723, 15174, 3736, 15173, 3759, 15177, 3763, 15197, 3747, 15210, 3758, 15224, 3751, 15229, 3729, 15249, 3714, 15244, 3708, 15247, 3700, 15246, 3690, 15230, 3685, 15226, 3698, 15211, 3701, 15199, 3700)
+polygon = PackedVector2Array(15166, 3700, 15166, 3723, 15174, 3736, 15173, 3759, 15177, 3763, 15197, 3747, 15210, 3758, 15224, 3751, 15229, 3729, 15249, 3714, 15244, 3708, 15247, 3700, 15246, 3690, 15230, 3685, 15226, 3698, 15209, 3704, 15199, 3700)
 
 [node name="RegionName" parent="Countries/41/Regions/656" index="1"]
 offset_left = 15159.0
@@ -9985,6 +9985,195 @@ offset_right = 15354.0
 offset_bottom = 3774.0
 theme_override_font_sizes/font_size = 40
 text = "Бельгия"
+
+[node name="42" parent="Countries" instance=ExtResource("4_wk2pb")]
+_color = Color(0.643357, 0.481342, 0.479156, 1)
+_zoom = 6.0
+
+[node name="659" parent="Countries/42/Regions" index="0" instance=ExtResource("4_1uouy")]
+
+[node name="931" parent="Countries/42/Regions/659/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15224, 3697, 15169, 3696, 15165, 3690, 15169, 3685, 15226, 3685, 15227, 3692)
+
+[node name="932" parent="Countries/42/Regions/659/Elements" index="1" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15217, 3673, 15220, 3668, 15216, 3662, 15175, 3662, 15172, 3667, 15175, 3673)
+
+[node name="933" parent="Countries/42/Regions/659/Elements" index="2" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15232, 3655, 15230, 3663, 15238, 3665, 15243, 3665, 15241, 3655, 15235, 3653)
+
+[node name="937" parent="Countries/42/Regions/659/Elements" index="3" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15198, 3644, 15204, 3652, 15212, 3649, 15212, 3642, 15204, 3635, 15196, 3640)
+
+[node name="RegionName" parent="Countries/42/Regions/659" index="1"]
+offset_left = 15166.0
+offset_top = 3655.0
+offset_right = 15257.0
+offset_bottom = 3683.0
+text = "Зеландия"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="660" parent="Countries/42/Regions" index="1" instance=ExtResource("4_1uouy")]
+
+[node name="934" parent="Countries/42/Regions/660/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15314, 3631, 15308, 3635, 15293, 3638, 15289, 3645, 15274, 3642, 15253, 3637, 15246, 3630, 15230, 3626, 15231, 3611, 15253, 3591, 15255, 3575, 15265, 3570, 15278, 3583, 15284, 3587, 15291, 3587, 15301, 3580, 15313, 3580, 15315, 3588, 15317, 3600, 15320, 3608, 15324, 3612, 15334, 3612, 15340, 3605, 15346, 3607, 15349, 3615, 15347, 3621, 15337, 3632, 15333, 3636, 15323, 3627)
+
+[node name="935" parent="Countries/42/Regions/660/Elements" index="1" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15229, 3644, 15234, 3648, 15246, 3649, 15248, 3646, 15248, 3640, 15240, 3637, 15235, 3637, 15230, 3630, 15225, 3629, 15219, 3629, 15215, 3631, 15216, 3638, 15226, 3640)
+
+[node name="RegionName" parent="Countries/42/Regions/660" index="1"]
+offset_left = 15234.0
+offset_top = 3598.0
+offset_right = 15325.0
+offset_bottom = 3626.0
+text = "Южная Голландия"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="661" parent="Countries/42/Regions" index="2" instance=ExtResource("4_1uouy")]
+
+[node name="936" parent="Countries/42/Regions/661/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15246, 3684, 15247, 3655, 15263, 3651, 15278, 3645, 15288, 3645, 15293, 3638, 15307, 3636, 15315, 3631, 15324, 3627, 15332, 3635, 15343, 3645, 15354, 3637, 15366, 3624, 15375, 3629, 15385, 3638, 15391, 3652, 15405, 3666, 15393, 3677, 15388, 3680, 15387, 3688, 15374, 3692, 15364, 3698, 15361, 3700, 15337, 3700, 15330, 3693, 15324, 3681, 15322, 3674, 15313, 3673, 15310, 3680, 15294, 3681, 15291, 3673, 15262, 3673, 15259, 3678)
+
+[node name="RegionName" parent="Countries/42/Regions/661" index="1"]
+offset_left = 15291.0
+offset_top = 3644.0
+offset_right = 15382.0
+offset_bottom = 3672.0
+text = "Северный Брабант"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="662" parent="Countries/42/Regions" index="3" instance=ExtResource("4_1uouy")]
+
+[node name="938" parent="Countries/42/Regions/662/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15386, 3639, 15391, 3637, 15399, 3635, 15408, 3642, 15415, 3650, 15422, 3659, 15429, 3670, 15427, 3692, 15421, 3694, 15416, 3701, 15411, 3701, 15408, 3713, 15400, 3714, 15395, 3707, 15389, 3707, 15369, 3708, 15361, 3701, 15364, 3698, 15375, 3692, 15387, 3688, 15388, 3680, 15393, 3677, 15405, 3666, 15391, 3652)
+
+[node name="RegionName" parent="Countries/42/Regions/662" index="1"]
+offset_left = 15365.0
+offset_top = 3669.0
+offset_right = 15456.0
+offset_bottom = 3697.0
+text = "Лимбург"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="663" parent="Countries/42/Regions" index="4" instance=ExtResource("4_1uouy")]
+
+[node name="939" parent="Countries/42/Regions/663/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15343, 3645, 15333, 3636, 15336, 3633, 15347, 3621, 15349, 3615, 15346, 3607, 15366, 3609, 15371, 3604, 15367, 3595, 15357, 3579, 15366, 3570, 15373, 3569, 15382, 3559, 15388, 3551, 15396, 3563, 15404, 3574, 15410, 3584, 15420, 3587, 15432, 3595, 15444, 3596, 15460, 3604, 15471, 3613, 15473, 3623, 15426, 3626, 15415, 3627, 15404, 3629, 15400, 3635, 15386, 3639, 15384, 3637, 15375, 3629, 15366, 3624, 15354, 3637)
+
+[node name="RegionName" parent="Countries/42/Regions/663" index="1"]
+offset_left = 15361.0
+offset_top = 3589.0
+offset_right = 15452.0
+offset_bottom = 3617.0
+text = "Гелдерланд"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="664" parent="Countries/42/Regions" index="5" instance=ExtResource("4_1uouy")]
+
+[node name="940" parent="Countries/42/Regions/664/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15340, 3605, 15334, 3612, 15325, 3612, 15320, 3608, 15317, 3600, 15315, 3588, 15323, 3584, 15337, 3583, 15344, 3587, 15350, 3585, 15355, 3580, 15357, 3579, 15367, 3595, 15371, 3604, 15366, 3609, 15346, 3607)
+
+[node name="RegionName" parent="Countries/42/Regions/664" index="1"]
+offset_left = 15296.0
+offset_top = 3582.0
+offset_right = 15387.0
+offset_bottom = 3610.0
+text = "Утрехт"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="665" parent="Countries/42/Regions" index="6" instance=ExtResource("4_1uouy")]
+
+[node name="941" parent="Countries/42/Regions/665/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15337, 3583, 15325, 3572, 15334, 3563, 15340, 3562, 15348, 3554, 15371, 3533, 15382, 3534, 15390, 3541, 15388, 3551, 15382, 3559, 15373, 3569, 15366, 3570, 15357, 3579, 15355, 3580, 15350, 3585, 15344, 3587)
+
+[node name="RegionName" parent="Countries/42/Regions/665" index="1"]
+offset_left = 15315.0
+offset_top = 3548.0
+offset_right = 15406.0
+offset_bottom = 3576.0
+text = "Флеволанд"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="666" parent="Countries/42/Regions" index="7" instance=ExtResource("4_1uouy")]
+
+[node name="942" parent="Countries/42/Regions/666/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15420, 3562, 15413, 3554, 15421, 3546, 15419, 3538, 15415, 3533, 15402, 3530, 15394, 3531, 15389, 3541, 15388, 3551, 15396, 3562, 15404, 3574, 15410, 3584, 15420, 3587, 15432, 3595, 15445, 3596, 15460, 3604, 15472, 3614, 15488, 3595, 15506, 3573, 15501, 3561, 15488, 3553, 15462, 3555, 15450, 3568, 15433, 3564)
+
+[node name="RegionName" parent="Countries/42/Regions/666" index="1"]
+offset_left = 15402.0
+offset_top = 3568.0
+offset_right = 15493.0
+offset_bottom = 3596.0
+text = "Оверэссейл"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="667" parent="Countries/42/Regions" index="8" instance=ExtResource("4_1uouy")]
+
+[node name="943" parent="Countries/42/Regions/667/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15434, 3564, 15420, 3562, 15413, 3553, 15420, 3546, 15419, 3539, 15415, 3533, 15403, 3530, 15421, 3522, 15431, 3515, 15436, 3522, 15452, 3506, 15445, 3498, 15452, 3489, 15471, 3473, 15510, 3508, 15507, 3527, 15477, 3530, 15476, 3554, 15462, 3555, 15450, 3568)
+
+[node name="RegionName" parent="Countries/42/Regions/667" index="1"]
+offset_left = 15410.0
+offset_top = 3509.0
+offset_right = 15501.0
+offset_bottom = 3537.0
+text = "Дренте"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="668" parent="Countries/42/Regions" index="9" instance=ExtResource("4_1uouy")]
+
+[node name="944" parent="Countries/42/Regions/668/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15452, 3489, 15434, 3482, 15430, 3469, 15440, 3449, 15449, 3434, 15486, 3435, 15495, 3444, 15507, 3446, 15515, 3457, 15525, 3471, 15522, 3488, 15515, 3493, 15510, 3508, 15471, 3473)
+
+[node name="RegionName" parent="Countries/42/Regions/668" index="1"]
+offset_left = 15432.0
+offset_top = 3444.0
+offset_right = 15523.0
+offset_bottom = 3472.0
+text = "Гранинген"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="669" parent="Countries/42/Regions" index="10" instance=ExtResource("4_1uouy")]
+
+[node name="945" parent="Countries/42/Regions/669/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15356, 3547, 15339, 3529, 15345, 3519, 15355, 3515, 15362, 3504, 15361, 3493, 15344, 3485, 15333, 3492, 15332, 3491, 15341, 3482, 15376, 3454, 15383, 3446, 15387, 3436, 15403, 3432, 15408, 3441, 15426, 3437, 15443, 3438, 15446, 3439, 15430, 3468, 15435, 3483, 15452, 3489, 15444, 3498, 15452, 3506, 15437, 3522, 15430, 3516, 15421, 3522, 15402, 3530, 15394, 3531, 15390, 3540, 15382, 3534, 15370, 3533)
+
+[node name="946" parent="Countries/42/Regions/669/Elements" index="1" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15342, 3449, 15346, 3449, 15356, 3444, 15368, 3441, 15374, 3432, 15360, 3431, 15355, 3437, 15339, 3440, 15339, 3446)
+
+[node name="947" parent="Countries/42/Regions/669/Elements" index="2" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15342, 3449, 15346, 3449, 15356, 3444, 15368, 3441, 15374, 3432, 15366, 3432, 15355, 3437, 15339, 3440, 15339, 3446)
+
+[node name="RegionName" parent="Countries/42/Regions/669" index="1"]
+offset_left = 15349.0
+offset_top = 3472.0
+offset_right = 15440.0
+offset_bottom = 3500.0
+text = "Фрисландия"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="670" parent="Countries/42/Regions" index="11" instance=ExtResource("4_1uouy")]
+
+[node name="948" parent="Countries/42/Regions/670/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15265, 3570, 15277, 3540, 15287, 3512, 15300, 3496, 15321, 3496, 15332, 3491, 15333, 3492, 15323, 3499, 15308, 3500, 15309, 3513, 15318, 3525, 15319, 3536, 15329, 3536, 15339, 3529, 15356, 3547, 15341, 3562, 15334, 3563, 15325, 3572, 15337, 3583, 15323, 3584, 15315, 3588, 15313, 3580, 15301, 3580, 15291, 3587, 15284, 3587, 15278, 3583)
+
+[node name="949" parent="Countries/42/Regions/670/Elements" index="1" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(15300, 3490, 15307, 3477, 15315, 3462, 15316, 3456, 15301, 3470, 15295, 3479, 15291, 3488, 15296, 3491)
+
+[node name="RegionName" parent="Countries/42/Regions/670" index="1"]
+offset_left = 15257.0
+offset_top = 3534.0
+offset_right = 15348.0
+offset_bottom = 3562.0
+text = "Северная Голландия"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="CountryName" parent="Countries/42" index="1"]
+offset_left = 15217.0
+offset_top = 3537.0
+offset_right = 15509.0
+offset_bottom = 3595.0
+theme_override_font_sizes/font_size = 40
+text = "Нидерланды"
 
 [editable path="Countries/2"]
 [editable path="Countries/2/Regions/2"]
@@ -10676,3 +10865,16 @@ text = "Бельгия"
 [editable path="Countries/41/Regions/656"]
 [editable path="Countries/41/Regions/657"]
 [editable path="Countries/41/Regions/658"]
+[editable path="Countries/42"]
+[editable path="Countries/42/Regions/659"]
+[editable path="Countries/42/Regions/660"]
+[editable path="Countries/42/Regions/661"]
+[editable path="Countries/42/Regions/662"]
+[editable path="Countries/42/Regions/663"]
+[editable path="Countries/42/Regions/664"]
+[editable path="Countries/42/Regions/665"]
+[editable path="Countries/42/Regions/666"]
+[editable path="Countries/42/Regions/667"]
+[editable path="Countries/42/Regions/668"]
+[editable path="Countries/42/Regions/669"]
+[editable path="Countries/42/Regions/670"]

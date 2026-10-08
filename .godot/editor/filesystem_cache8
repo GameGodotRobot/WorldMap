@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1791448047
+::res://::1791462138
 icon.svg::CompressedTexture2D::1680301731553040142::1784101633::1790947027::1::::<><>::
 README.md::TextFile::-1::1790946724::0::1::::<><>::
 ::res://addons/::1790946783
@@ -8,7 +8,7 @@ gdsqlite.gdextension::GDExtension::-1::1741265647::0::1::::<><>::
 godot-sqlite.gd::GDScript::-1::1741265647::0::1::::<>EditorPlugin<>::
 LICENSE.md::TextFile::-1::1741265644::0::1::::<><>::
 plugin.cfg::TextFile::-1::1741265647::0::1::::<><>::
-::res://addons/godot-sqlite/bin/::1791448038
+::res://addons/godot-sqlite/bin/::1791462129
 binaries_here.txt::TextFile::-1::1723976710::0::1::::<><>::
 ::res://addons/godot-sqlite/bin/libgdsqlite.ios.template_debug.xcframework/::1790946784
 ::res://addons/godot-sqlite/bin/libgdsqlite.ios.template_debug.xcframework/ios-arm64/::1790946784
@@ -71,10 +71,10 @@ RegionPanel.tscn::PackedScene::5370604044268938370::1790526717::0::1::::<><>::re
 ::res://Main/Interface/ValuePanel/::1790946788
 ValuePanel.gd::GDScript::-1::1790511820::0::1::::ValuePanel<>Control<>::
 ValuePanel.tscn::PackedScene::655602161367105933::1790565453::0::1::::<><>::res://Main/Interface/ValuePanel/ValuePanel.gd<>uid://bw477dcvr81qj::::res://Res/LabelSetting/HeadlineLabelSetting.tres<>uid://b6lotvw7b1txg::::res://Res/LabelSetting/ValueLineLabelSetting.tres
-::res://Main/Map/::1791447612
+::res://Main/Map/::1791461822
 Countries.gd::GDScript::-1::1790525437::0::1::::Countries<>Node2D<>::
 Map.gd::GDScript::-1::1790179172::0::1::::Map<>Node2D<>::
-Map.tscn::PackedScene::7291670478882404623::1791447612::0::1::::<><>::res://Main/Map/Map.gd<>uid://bek7vfgctygfe::::res://Res/Textures/PolygonTexture/PaperTexture2.jpg<>uid://cn2icqs3qklg0::::res://Res/03qx39e8dnc01.png<>uid://dye0jge7pvsvu::::res://Main/Map/MapNodeRegion/MapNodeRegion.tscn<>res://Main/Map/Countries.gd<>uid://bmw2dnubo3mxn::::res://Main/Map/MapNodeCountry/MapNodeCountry.tscn<>uid://b6c362qx2566r::::res://Main/Map/MapNodeElement2/MapNodeEelement2.tscn<>uid://b8rh0jtpx613a::::res://Res/LabelSetting/DefaultLabelSetting.tres
+Map.tscn::PackedScene::7291670478882404623::1791461822::0::1::::<><>::res://Main/Map/Map.gd<>uid://bek7vfgctygfe::::res://Res/Textures/PolygonTexture/PaperTexture2.jpg<>uid://cn2icqs3qklg0::::res://Res/03qx39e8dnc01.png<>uid://dye0jge7pvsvu::::res://Main/Map/MapNodeRegion/MapNodeRegion.tscn<>res://Main/Map/Countries.gd<>uid://bmw2dnubo3mxn::::res://Main/Map/MapNodeCountry/MapNodeCountry.tscn<>uid://b6c362qx2566r::::res://Main/Map/MapNodeElement2/MapNodeEelement2.tscn<>uid://b8rh0jtpx613a::::res://Res/LabelSetting/DefaultLabelSetting.tres
 MapNodeManager.gd::GDScript::-1::1788273893::0::1::::MapNodeManager<>Area2D<>::
 ::res://Main/Map/MapNodeCountry/::1791274715
 MapNodeCountry.gd::GDScript::-1::1791274715::0::1::::MapNodeCountry<>Node2D<>::
