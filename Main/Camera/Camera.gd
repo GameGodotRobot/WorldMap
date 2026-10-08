@@ -3,7 +3,7 @@ extends Camera2D
 class_name Camera
 
 const _MAX_ZOOM:float = 4.5;
-const _MIN_ZOOM:float = 0.05;
+const _MIN_ZOOM:float = 0.2;
 
 var _start_pos:Vector2:
 	set= _start_pos_set, get = start_pos_get;

@@ -30,13 +30,6 @@ func country_dto_get()->CountryDTO:
 		self.country_name_get()
 	);
 
-var _area:float:
-	set = _area_set, get = area_get;
-func _area_set(value:float)->void:
-	_area = value;
-func area_get()->float:
-	return _area;
-
 enum STATE {
 	NONE = 0,
 	REGION = 1,
@@ -65,10 +58,6 @@ func _ready()->void:
 	self._country_name_set($CountryName.text.replace("\n"," "));
 	$CountryName.label_settings = GlobalFont.label_setting_get($CountryName.get("theme_override_font_sizes/font_size"));
 	$CountryName.remove_theme_font_size_override("font_size");
-	var area:float = 0.0;
-	for region in self.regions_get():
-		area += region.area_get();
-	self._area_set(area)
 	$CountryName.self_modulate = self.color_get().lightened(0.6);
 	if GloabalSignal.connect("camera__zoom_change", Callable(self, "_on_zoom_change")) != OK:
 		push_error('not connected zoom_change');
