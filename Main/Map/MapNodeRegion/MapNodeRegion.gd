@@ -33,13 +33,6 @@ func _rect_set(value:Rect2)->void:
 func rect_get()->Rect2:
 	return _rect;
 
-var _area:float:
-	set = _area_set, get = area_get;
-func _area_set(value:float)->void:
-	_area = value;
-func area_get()->float:
-	return _area;
-
 func neighbours_get()->Array[Dictionary]:
 	return GameServer.region_neighbour_connect_get_by_region_ids([self.region_id_get()]);
 
@@ -116,20 +109,15 @@ func _ready()->void:
 	self._colorfull(self.country_color_get(), -3);
 	var centroid:Vector2;
 	var count:int = 0;
-	var area:float = 0.0;
 	var rect:Rect2 = self.elements_get()[0].rect_get();
 	for element in self.elements_get():
 		rect = rect.merge(element.rect_get());
 		@warning_ignore("unassigned_variable_op_assign")
 		centroid += element.centroid_get();
-		area += element.area_get();
 		count +=1;
 	self._centroid_set(centroid/count);
 	self._rect_set(rect);
-	self._area_set(area);
 	self._region_name_set($RegionName.text.replace("\n"," "));
-	if self.region_name_get() == 'Region Name':
-		push_error("Noname region found %s" % [self.region_id_get()]);
 	$RegionName.label_settings = GlobalFont.label_setting_get($RegionName.get("theme_override_font_sizes/font_size"));
 	$RegionName.remove_theme_font_size_override("font_size");
 	if $Elements.connect("input_event", Callable(self, '_on_input_event')) != OK:

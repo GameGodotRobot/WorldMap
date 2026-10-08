@@ -21,13 +21,6 @@ func _rect_set(value:Rect2)->void:
 func rect_get()->Rect2:
 	return _rect;
 
-var _area:float:
-	set = _area_set, get = area_get;
-func _area_set(value:float)->void:
-	_area = value;
-func area_get()->float:
-	return _area;
-
 func is_polygon_in_polygon(poly:PackedVector2Array)->bool:
 	for point in self.polygon:
 		if Geometry2D.is_point_in_polygon(point, poly):
@@ -37,7 +30,6 @@ func is_polygon_in_polygon(poly:PackedVector2Array)->bool:
 func _ready()->void:
 	$Line.points = self.polygon;
 	$Polygon.polygon = self.polygon;
-	self._area_set(PolygonLib.getPolygonArea(self.polygon));
 	self._centroid_set(PolygonLib.calculatePolygonCentroid(self.polygon));
 	self._rect_set(PolygonLib.getBoundingRect(self.polygon));
 	if GloabalSignal.connect("camera__zoom_change", Callable(self,"_on_zoom_change")) != OK:
