@@ -19,7 +19,7 @@ func country_id_get()->int:
 var _region_name:String:
 	set = _region_name_set, get = region_name_get;
 func _region_name_set(values:String)->void:
-	_region_name = values;
+	_region_name = values.replace("'","''");
 func region_name_get()->String:
 	return _region_name;
 	

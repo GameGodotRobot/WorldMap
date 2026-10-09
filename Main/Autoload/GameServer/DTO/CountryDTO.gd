@@ -12,7 +12,7 @@ func country_id_get()->int:
 var _country_name:String:
 	set = _country_name_set, get = country_name_get;
 func _country_name_set(values:String)->void:
-	_country_name = values;
+	_country_name = values.replace("'","''");
 func country_name_get()->String:
 	return _country_name;
 
