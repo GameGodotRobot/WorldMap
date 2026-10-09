@@ -1,1 +1,5 @@
 res://Main/Map/Map.tscn
+res://Main/Autoload/GameServer/DTO/RegionDTO.gd
+res://Main/Autoload/Database/Query.gd
+res://Main/Autoload/GameServer/DTO/CountryDTO.gd
+res://Main/Map/Map.gd

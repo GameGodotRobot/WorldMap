@@ -6599,7 +6599,7 @@ offset_left = 7305.0
 offset_top = 14378.0
 offset_right = 7408.0
 offset_bottom = 14409.0
-text = "О Хиггинс"
+text = "О'Хиггинс"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="459" parent="Countries/28/Regions" index="8" instance=ExtResource("4_1uouy")]
@@ -10807,7 +10807,7 @@ offset_left = 15509.0
 offset_top = 4355.0
 offset_right = 15574.0
 offset_bottom = 4386.0
-text = "Валле-д-Аоста"
+text = "Валле-д'Аоста"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="719" parent="Countries/46/Regions" index="1" instance=ExtResource("4_1uouy")]
@@ -11193,10 +11193,10 @@ text = "Вена"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="CountryName" parent="Countries/47" index="1"]
-offset_left = 15802.0
-offset_top = 4213.0
-offset_right = 16094.0
-offset_bottom = 4271.0
+offset_left = 16032.0
+offset_top = 4130.0
+offset_right = 16324.0
+offset_bottom = 4188.0
 theme_override_font_sizes/font_size = 40
 text = "Австрия"
 
