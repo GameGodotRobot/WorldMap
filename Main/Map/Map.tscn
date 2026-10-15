@@ -12951,11 +12951,11 @@ _zoom = 6.0
 polygon = PackedVector2Array(17338, 2801, 17343, 2792, 17348, 2792, 17356, 2781, 17358, 2775, 17364, 2774, 17366, 2761, 17372, 2757, 17374, 2752, 17380, 2749, 17382, 2741, 17378, 2733, 17277, 2734, 17267, 2727, 17261, 2729, 17261, 2744, 17267, 2753, 17270, 2760, 17276, 2766, 17260, 2784, 17261, 2792, 17267, 2799, 17276, 2790, 17284, 2800)
 
 [node name="RegionName" parent="Countries/56/Regions/875" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17285.0
+offset_top = 2746.0
+offset_right = 17350.0
+offset_bottom = 2777.0
+text = "Ида-Вируума"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="876" parent="Countries/56/Regions" index="1" instance=ExtResource("4_1uouy")]
@@ -12964,11 +12964,11 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17261, 2792, 17243, 2794, 17241, 2815, 17221, 2816, 17219, 2826, 17212, 2831, 17205, 2835, 17206, 2847, 17220, 2850, 17229, 2857, 17236, 2858, 17246, 2849, 17287, 2838, 17312, 2832, 17328, 2823, 17332, 2819, 17334, 2807, 17338, 2801, 17284, 2800, 17276, 2790, 17267, 2799)
 
 [node name="RegionName" parent="Countries/56/Regions/876" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17249.0
+offset_top = 2805.0
+offset_right = 17314.0
+offset_bottom = 2836.0
+text = "Йыгевамаа"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="877" parent="Countries/56/Regions" index="2" instance=ExtResource("4_1uouy")]
@@ -12977,11 +12977,11 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17236, 2858, 17236, 2888, 17258, 2888, 17269, 2878, 17276, 2878, 17283, 2887, 17293, 2880, 17302, 2880, 17316, 2869, 17327, 2864, 17347, 2873, 17347, 2842, 17341, 2839, 17339, 2823, 17332, 2819, 17329, 2823, 17312, 2832, 17287, 2838, 17246, 2849)
 
 [node name="RegionName" parent="Countries/56/Regions/877" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17264.0
+offset_top = 2842.0
+offset_right = 17329.0
+offset_bottom = 2873.0
+text = "Тартумаа"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="878" parent="Countries/56/Regions" index="3" instance=ExtResource("4_1uouy")]
@@ -12990,11 +12990,11 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17376, 2915, 17362, 2898, 17347, 2873, 17327, 2864, 17316, 2869, 17302, 2880, 17293, 2880, 17283, 2887, 17284, 2910, 17309, 2911, 17316, 2904, 17326, 2912, 17332, 2914, 17333, 2927, 17354, 2927, 17362, 2926, 17364, 2920)
 
 [node name="RegionName" parent="Countries/56/Regions/878" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17290.0
+offset_top = 2873.0
+offset_right = 17355.0
+offset_bottom = 2904.0
+text = "Пылвамаа"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="879" parent="Countries/56/Regions" index="4" instance=ExtResource("4_1uouy")]
@@ -13003,11 +13003,11 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17345, 2953, 17362, 2926, 17355, 2927, 17333, 2927, 17332, 2914, 17326, 2912, 17316, 2904, 17309, 2911, 17284, 2910, 17270, 2919, 17270, 2929, 17276, 2937, 17276, 2953, 17299, 2954, 17303, 2944, 17314, 2944, 17318, 2954)
 
 [node name="RegionName" parent="Countries/56/Regions/879" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17278.0
+offset_top = 2916.0
+offset_right = 17343.0
+offset_bottom = 2947.0
+text = "Вырумаа"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="880" parent="Countries/56/Regions" index="5" instance=ExtResource("4_1uouy")]
@@ -13016,11 +13016,11 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17276, 2953, 17253, 2953, 17250, 2944, 17226, 2931, 17212, 2930, 17209, 2922, 17211, 2905, 17220, 2892, 17228, 2888, 17236, 2888, 17258, 2888, 17269, 2878, 17276, 2878, 17283, 2887, 17284, 2910, 17270, 2919, 17270, 2930, 17276, 2937)
 
 [node name="RegionName" parent="Countries/56/Regions/880" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17213.0
+offset_top = 2892.0
+offset_right = 17278.0
+offset_bottom = 2923.0
+text = "Валгамаа"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="881" parent="Countries/56/Regions" index="6" instance=ExtResource("4_1uouy")]
@@ -13029,11 +13029,11 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17236, 2888, 17236, 2858, 17229, 2857, 17220, 2850, 17206, 2847, 17205, 2839, 17188, 2839, 17180, 2847, 17129, 2847, 17126, 2859, 17130, 2870, 17142, 2873, 17148, 2880, 17140, 2886, 17140, 2898, 17157, 2897, 17161, 2905, 17180, 2905, 17193, 2911, 17198, 2920, 17209, 2922, 17211, 2905, 17220, 2892, 17228, 2888)
 
 [node name="RegionName" parent="Countries/56/Regions/881" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17146.0
+offset_top = 2853.0
+offset_right = 17220.0
+offset_bottom = 2884.0
+text = "Вильяндимаа"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="882" parent="Countries/56/Regions" index="7" instance=ExtResource("4_1uouy")]
@@ -13042,11 +13042,11 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17180, 2847, 17129, 2847, 17132, 2831, 17132, 2794, 17141, 2788, 17145, 2784, 17155, 2783, 17164, 2776, 17181, 2776, 17188, 2782, 17187, 2794, 17180, 2799, 17186, 2806, 17197, 2807, 17203, 2798, 17216, 2810, 17221, 2816, 17219, 2827, 17212, 2831, 17205, 2835, 17205, 2839, 17188, 2839)
 
 [node name="RegionName" parent="Countries/56/Regions/882" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17137.0
+offset_top = 2798.0
+offset_right = 17202.0
+offset_bottom = 2829.0
+text = "Ярвавмаа"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="883" parent="Countries/56/Regions" index="8" instance=ExtResource("4_1uouy")]
@@ -13055,11 +13055,11 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17241, 2815, 17221, 2816, 17216, 2810, 17203, 2798, 17197, 2807, 17186, 2806, 17180, 2799, 17187, 2794, 17188, 2782, 17181, 2776, 17164, 2776, 17155, 2783, 17145, 2784, 17141, 2779, 17142, 2768, 17160, 2760, 17172, 2757, 17182, 2751, 17173, 2740, 17165, 2723, 17165, 2717, 17233, 2717, 17248, 2728, 17261, 2729, 17261, 2744, 17267, 2753, 17270, 2760, 17276, 2766, 17260, 2784, 17261, 2792, 17243, 2794)
 
 [node name="RegionName" parent="Countries/56/Regions/883" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17182.0
+offset_top = 2737.0
+offset_right = 17247.0
+offset_bottom = 2768.0
+text = "Лязне-Вирумаа"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="884" parent="Countries/56/Regions" index="9" instance=ExtResource("4_1uouy")]
@@ -13068,11 +13068,11 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17182, 2751, 17171, 2757, 17159, 2760, 17142, 2768, 17141, 2779, 17145, 2784, 17141, 2788, 17132, 2794, 17121, 2781, 17104, 2772, 17093, 2759, 17082, 2768, 17075, 2769, 17066, 2778, 17062, 2783, 17053, 2785, 17048, 2792, 17036, 2799, 17027, 2786, 17019, 2773, 17011, 2766, 17001, 2765, 16993, 2755, 17008, 2750, 17021, 2751, 17032, 2744, 17044, 2736, 17083, 2735, 17094, 2729, 17138, 2727, 17149, 2717, 17152, 2711, 17158, 2711, 17165, 2717, 17165, 2723, 17173, 2740)
 
 [node name="RegionName" parent="Countries/56/Regions/884" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17077.0
+offset_top = 2729.0
+offset_right = 17142.0
+offset_bottom = 2760.0
+text = "Харьюмаа"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="885" parent="Countries/56/Regions" index="10" instance=ExtResource("4_1uouy")]
@@ -13081,11 +13081,11 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17053, 2830, 17054, 2821, 17046, 2814, 17044, 2806, 17036, 2799, 17048, 2792, 17053, 2785, 17062, 2783, 17066, 2778, 17075, 2769, 17082, 2768, 17093, 2759, 17104, 2772, 17121, 2781, 17132, 2794, 17132, 2824, 17115, 2825, 17108, 2830, 17097, 2823, 17076, 2823, 17067, 2831)
 
 [node name="RegionName" parent="Countries/56/Regions/885" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17060.0
+offset_top = 2782.0
+offset_right = 17125.0
+offset_bottom = 2813.0
+text = "Раплаама"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="886" parent="Countries/56/Regions" index="11" instance=ExtResource("4_1uouy")]
@@ -13094,11 +13094,11 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17021, 2860, 17027, 2873, 17059, 2873, 17068, 2862, 17075, 2862, 17075, 2872, 17069, 2882, 17069, 2920, 17085, 2917, 17100, 2911, 17116, 2898, 17140, 2898, 17140, 2886, 17148, 2880, 17142, 2873, 17130, 2870, 17126, 2859, 17129, 2847, 17132, 2831, 17132, 2824, 17115, 2825, 17108, 2830, 17097, 2823, 17076, 2823, 17067, 2831, 17053, 2830, 17039, 2835, 17035, 2848, 17029, 2851, 17025, 2857)
 
 [node name="RegionName" parent="Countries/56/Regions/886" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 17059.0
+offset_top = 2842.0
+offset_right = 17124.0
+offset_bottom = 2873.0
+text = "Пьярнумаа"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="887" parent="Countries/56/Regions" index="12" instance=ExtResource("4_1uouy")]
@@ -13107,33 +13107,46 @@ label_settings = ExtResource("8_vxg7k")
 polygon = PackedVector2Array(17021, 2860, 17005, 2848, 16994, 2847, 16986, 2837, 16988, 2816, 17012, 2815, 16982, 2811, 16982, 2787, 16989, 2783, 16981, 2778, 16981, 2760, 16993, 2755, 17001, 2765, 17011, 2766, 17019, 2773, 17036, 2799, 17044, 2806, 17046, 2814, 17054, 2821, 17053, 2830, 17039, 2835, 17035, 2848, 17029, 2851, 17025, 2857)
 
 [node name="RegionName" parent="Countries/56/Regions/887" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+offset_left = 16988.0
+offset_top = 2798.0
+offset_right = 17053.0
+offset_bottom = 2829.0
+text = "Ляэнемаа"
 label_settings = ExtResource("8_vxg7k")
 
-[node name="888" parent="Countries/56/Regions" index="13" instance=ExtResource("4_1uouy")]
+[node name="889" parent="Countries/56/Regions" index="13" instance=ExtResource("4_1uouy")]
 
-[node name="1168" parent="Countries/56/Regions/888/Elements" index="0" instance=ExtResource("6_8ufhg")]
-polygon = PackedVector2Array(17021, 2860, 17005, 2848, 16994, 2847, 16986, 2837, 16988, 2816, 17012, 2815, 16982, 2811, 16982, 2787, 16989, 2783, 16981, 2778, 16981, 2760, 16993, 2755, 17001, 2765, 17011, 2766, 17019, 2773, 17036, 2799, 17044, 2806, 17046, 2814, 17054, 2821, 17053, 2830, 17039, 2835, 17035, 2848, 17029, 2851, 17025, 2857)
+[node name="1169" parent="Countries/56/Regions/889/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(16853, 2850, 16853, 2872, 16868, 2886, 16861, 2896, 16862, 2912, 16873, 2913, 16877, 2904, 16880, 2893, 16897, 2878, 16906, 2873, 16928, 2873, 16935, 2864, 16945, 2864, 16950, 2858, 16957, 2856, 16965, 2851, 16961, 2843, 16948, 2840, 16943, 2831, 16886, 2830, 16868, 2849)
 
-[node name="RegionName" parent="Countries/56/Regions/888" index="1"]
-offset_left = 18125.0
-offset_top = 4397.0
-offset_right = 18190.0
-offset_bottom = 4428.0
-text = "Крым"
+[node name="RegionName" parent="Countries/56/Regions/889" index="1"]
+offset_left = 16862.0
+offset_top = 2842.0
+offset_right = 16927.0
+offset_bottom = 2873.0
+text = "Сааремаа"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="890" parent="Countries/56/Regions" index="14" instance=ExtResource("4_1uouy")]
+
+[node name="1170" parent="Countries/56/Regions/890/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(16929, 2805, 16923, 2808, 16917, 2815, 16896, 2815, 16892, 2807, 16883, 2800, 16880, 2795, 16877, 2790, 16881, 2787, 16894, 2786, 16899, 2777, 16912, 2778, 16915, 2786, 16929, 2787, 16931, 2796)
+
+[node name="RegionName" parent="Countries/56/Regions/890" index="1"]
+offset_left = 16872.0
+offset_top = 2782.0
+offset_right = 16937.0
+offset_bottom = 2813.0
+text = "Хийумаа"
 label_settings = ExtResource("8_vxg7k")
 
 [node name="CountryName" parent="Countries/56" index="1"]
-offset_left = 17811.0
-offset_top = 3926.0
-offset_right = 18103.0
-offset_bottom = 3984.0
+offset_left = 17022.0
+offset_top = 2765.0
+offset_right = 17314.0
+offset_bottom = 2823.0
 theme_override_font_sizes/font_size = 40
-text = "Украина"
+text = "Эстония"
 
 [editable path="Countries/2"]
 [editable path="Countries/2/Regions/2"]
@@ -14064,4 +14077,5 @@ text = "Украина"
 [editable path="Countries/56/Regions/885"]
 [editable path="Countries/56/Regions/886"]
 [editable path="Countries/56/Regions/887"]
-[editable path="Countries/56/Regions/888"]
+[editable path="Countries/56/Regions/889"]
+[editable path="Countries/56/Regions/890"]
