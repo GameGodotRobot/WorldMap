@@ -1,7 +1,1 @@
 res://Main/Map/Map.tscn
-res://Main/Map/MapNodeCountry/MapNodeCountry.gd
-res://Main/Map/MapNodeElement2/MapNodeEelement2.gd
-res://Main/Map/MapNodeRegion/MapNodeRegion.gd
-res://Main/Main.tscn
-res://Main/Camera/Camera.gd
-res://Main/Main.gd
