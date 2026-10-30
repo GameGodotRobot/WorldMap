@@ -10878,7 +10878,7 @@ label_settings = ExtResource("8_vxg7k")
 [node name="724" parent="Countries/46/Regions" index="6" instance=ExtResource("4_1uouy")]
 
 [node name="1005" parent="Countries/46/Regions/724/Elements" index="0" instance=ExtResource("6_8ufhg")]
-polygon = PackedVector2Array(32072, 8714, 32038, 8682, 32054, 8652, 32044, 8618, 32060, 8572, 32084, 8546, 32084, 8520, 32142, 8522, 32154, 8532, 32276, 8538, 32280, 8560, 32262, 8574, 32252, 8582, 32244, 8604, 32274, 8622, 32276, 8646, 32258, 8664, 32264, 8682, 32282, 8690, 32280, 8746, 32238, 8746, 32234, 8732, 32214, 8730, 32200, 8746, 32170, 8752, 32168, 8712, 32148, 8696, 32118, 8702, 32100, 8716)
+polygon = PackedVector2Array(32072, 8714, 32038, 8682, 32054, 8652, 32044, 8618, 32060, 8572, 32084, 8546, 32084, 8520, 32142, 8522, 32154, 8532, 32276, 8538, 32280, 8560, 32262, 8574, 32252, 8582, 32244, 8604, 32274, 8622, 32276, 8646, 32258, 8664, 32264, 8682, 32282, 8690, 32282, 8733, 32297, 8740, 32334, 8745, 32328, 8780, 32297, 8780, 32280, 8746, 32238, 8746, 32234, 8732, 32214, 8730, 32200, 8746, 32170, 8752, 32168, 8712, 32148, 8696, 32118, 8702, 32100, 8716)
 
 [node name="RegionName" parent="Countries/46/Regions/724" index="1"]
 offset_left = 32120.5
@@ -11130,7 +11130,7 @@ label_settings = ExtResource("8_vxg7k")
 [node name="743" parent="Countries/47/Regions" index="4" instance=ExtResource("4_1uouy")]
 
 [node name="1025" parent="Countries/47/Regions/743/Elements" index="0" instance=ExtResource("6_8ufhg")]
-polygon = PackedVector2Array(32662, 8520, 32566, 8520, 32556, 8448, 32522, 8412, 32502, 8412, 32490, 8426, 32460, 8426, 32442, 8408, 32424, 8426, 32410, 8412, 32396, 8410, 32376, 8394, 32362, 8410, 32346, 8410, 32322, 8438, 32302, 8438, 32292, 8426, 32296, 8410, 32318, 8392, 32282, 8364, 32262, 8364, 32250, 8378, 32228, 8356, 32230, 8328, 32250, 8316, 32284, 8312, 32298, 8296, 32292, 8278, 32284, 8256, 32296, 8236, 32334, 8236, 32348, 8264, 32360, 8266, 32376, 8248, 32390, 8266, 32410, 8266, 32426, 8246, 32460, 8246, 32486, 8232, 32538, 8232, 32588, 8200, 32746, 8280, 32776, 8312, 32762, 8332, 32762, 8376, 32776, 8390, 32776, 8408, 32742, 8444, 32742, 8504, 32666, 8504)
+polygon = PackedVector2Array(32662, 8521, 32566, 8520, 32556, 8448, 32522, 8412, 32502, 8412, 32490, 8426, 32460, 8426, 32442, 8408, 32424, 8426, 32410, 8412, 32396, 8410, 32376, 8394, 32362, 8410, 32346, 8410, 32322, 8438, 32302, 8438, 32292, 8426, 32296, 8410, 32318, 8392, 32282, 8364, 32262, 8364, 32250, 8378, 32228, 8356, 32230, 8328, 32250, 8316, 32284, 8312, 32298, 8296, 32292, 8278, 32284, 8256, 32296, 8236, 32334, 8236, 32348, 8264, 32360, 8266, 32376, 8248, 32390, 8266, 32410, 8266, 32426, 8246, 32460, 8246, 32486, 8232, 32538, 8232, 32588, 8200, 32746, 8280, 32776, 8312, 32762, 8332, 32762, 8376, 32776, 8390, 32776, 8408, 32742, 8444, 32742, 8504, 32666, 8504)
 
 [node name="RegionName" parent="Countries/47/Regions/743" index="1"]
 offset_left = 32476.5
@@ -15044,6 +15044,212 @@ offset_bottom = 9777.0
 theme_override_font_sizes/font_size = 40
 text = "Македония"
 
+[node name="62" parent="Countries" instance=ExtResource("4_wk2pb")]
+_color = Color(0.291942, 0.742605, 0.735709, 1)
+_zoom = 6.0
+
+[node name="1035" parent="Countries/62/Regions" index="0" instance=ExtResource("4_1uouy")]
+
+[node name="1315" parent="Countries/62/Regions/1035/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32280, 8560, 32312, 8591, 32313, 8604, 32354, 8631, 32365, 8651, 32379, 8665, 32397, 8665, 32404, 8655, 32425, 8649, 32440, 8634, 32459, 8600, 32462, 8571, 32380, 8572, 32373, 8554)
+
+[node name="RegionName" parent="Countries/62/Regions/1035" index="1"]
+offset_left = 32349.0
+offset_top = 8588.0
+offset_right = 32438.0
+offset_bottom = 8619.0
+text = "Гореньска"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1036" parent="Countries/62/Regions" index="1" instance=ExtResource("4_1uouy")]
+
+[node name="1316" parent="Countries/62/Regions/1036/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32378, 8665, 32377, 8711, 32358, 8729, 32332, 8703, 32282, 8700, 32282, 8691, 32264, 8682, 32257, 8664, 32276, 8645, 32274, 8622, 32244, 8604, 32253, 8582, 32262, 8574, 32280, 8560, 32312, 8591, 32313, 8604, 32354, 8631, 32365, 8652)
+
+[node name="RegionName" parent="Countries/62/Regions/1036" index="1"]
+offset_left = 32287.0
+offset_top = 8649.0
+offset_right = 32376.0
+offset_bottom = 8680.0
+text = "Горишка"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1037" parent="Countries/62/Regions" index="2" instance=ExtResource("4_1uouy")]
+
+[node name="1317" parent="Countries/62/Regions/1037/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32357, 8729, 32355, 8804, 32332, 8813, 32268, 8808, 32272, 8798, 32299, 8780, 32328, 8779, 32334, 8746, 32299, 8741, 32282, 8732, 32283, 8701, 32332, 8704)
+
+[node name="RegionName" parent="Countries/62/Regions/1037" index="1"]
+offset_left = 32281.0
+offset_top = 8714.0
+offset_right = 32370.0
+offset_bottom = 8745.0
+text = "Обално-Крашка"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1038" parent="Countries/62/Regions" index="3" instance=ExtResource("4_1uouy")]
+
+[node name="1318" parent="Countries/62/Regions/1038/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32356, 8803, 32409, 8801, 32439, 8794, 32451, 8778, 32467, 8763, 32470, 8748, 32470, 8728, 32455, 8716, 32451, 8699, 32426, 8698, 32409, 8714, 32377, 8711, 32358, 8728)
+
+[node name="RegionName" parent="Countries/62/Regions/1038" index="1"]
+offset_left = 32360.0
+offset_top = 8741.0
+offset_right = 32449.0
+offset_bottom = 8772.0
+text = "Нотраньска-Крашка"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1039" parent="Countries/62/Regions" index="4" instance=ExtResource("4_1uouy")]
+
+[node name="1319" parent="Countries/62/Regions/1039/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32377, 8711, 32378, 8666, 32397, 8665, 32404, 8655, 32426, 8648, 32444, 8628, 32459, 8600, 32462, 8570, 32475, 8571, 32480, 8591, 32490, 8608, 32498, 8630, 32526, 8638, 32535, 8655, 32530, 8670, 32518, 8685, 32504, 8690, 32506, 8719, 32521, 8731, 32521, 8747, 32508, 8749, 32492, 8731, 32471, 8729, 32456, 8716, 32451, 8699, 32426, 8698, 32409, 8714)
+
+[node name="RegionName" parent="Countries/62/Regions/1039" index="1"]
+offset_left = 32418.0
+offset_top = 8657.0
+offset_right = 32507.0
+offset_bottom = 8688.0
+text = "Средняя Словения"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1040" parent="Countries/62/Regions" index="5" instance=ExtResource("4_1uouy")]
+
+[node name="1320" parent="Countries/62/Regions/1040/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32471, 8729, 32470, 8749, 32468, 8763, 32485, 8766, 32498, 8780, 32530, 8781, 32543, 8794, 32578, 8796, 32595, 8807, 32614, 8808, 32617, 8770, 32612, 8748, 32601, 8732, 32599, 8702, 32568, 8699, 32548, 8697, 32555, 8686, 32546, 8676, 32530, 8670, 32518, 8685, 32503, 8690, 32506, 8719, 32521, 8731, 32521, 8747, 32508, 8749, 32492, 8731)
+
+[node name="RegionName" parent="Countries/62/Regions/1040" index="1"]
+offset_left = 32517.0
+offset_top = 8734.0
+offset_right = 32606.0
+offset_bottom = 8765.0
+text = "Южная Словения"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1041" parent="Countries/62/Regions" index="6" instance=ExtResource("4_1uouy")]
+
+[node name="1321" parent="Countries/62/Regions/1041/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32555, 8685, 32577, 8677, 32586, 8664, 32567, 8652, 32535, 8655, 32530, 8670, 32546, 8676)
+
+[node name="RegionName" parent="Countries/62/Regions/1041" index="1"]
+offset_left = 32510.0
+offset_top = 8650.0
+offset_right = 32599.0
+offset_bottom = 8681.0
+text = "Засавска"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1042" parent="Countries/62/Regions" index="7" instance=ExtResource("4_1uouy")]
+
+[node name="1322" parent="Countries/62/Regions/1042/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32599, 8702, 32616, 8684, 32652, 8683, 32669, 8697, 32679, 8715, 32643, 8717, 32642, 8728, 32617, 8732, 32612, 8749, 32601, 8732)
+
+[node name="RegionName" parent="Countries/62/Regions/1042" index="1"]
+offset_left = 32582.0
+offset_top = 8695.0
+offset_right = 32671.0
+offset_bottom = 8726.0
+text = "Нижняя Посавска"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1043" parent="Countries/62/Regions" index="8" instance=ExtResource("4_1uouy")]
+
+[node name="1323" parent="Countries/62/Regions/1043/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32679, 8714, 32683, 8659, 32678, 8639, 32681, 8610, 32655, 8573, 32639, 8574, 32632, 8585, 32615, 8585, 32597, 8568, 32583, 8571, 32567, 8590, 32535, 8587, 32502, 8549, 32490, 8553, 32488, 8571, 32475, 8571, 32479, 8590, 32490, 8608, 32498, 8629, 32526, 8638, 32535, 8654, 32566, 8652, 32587, 8664, 32576, 8677, 32555, 8685, 32548, 8696, 32568, 8699, 32599, 8702, 32616, 8684, 32651, 8683, 32670, 8697)
+
+[node name="RegionName" parent="Countries/62/Regions/1043" index="1"]
+offset_left = 32550.0
+offset_top = 8609.0
+offset_right = 32639.0
+offset_bottom = 8640.0
+text = "Савиньска"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1044" parent="Countries/62/Regions" index="9" instance=ExtResource("4_1uouy")]
+
+[node name="1324" parent="Countries/62/Regions/1044/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32655, 8573, 32634, 8556, 32646, 8540, 32662, 8521, 32566, 8520, 32522, 8520, 32514, 8536, 32502, 8540, 32502, 8548, 32533, 8586, 32567, 8590, 32583, 8571, 32597, 8568, 32615, 8585, 32632, 8585, 32640, 8574)
+
+[node name="RegionName" parent="Countries/62/Regions/1044" index="1"]
+offset_left = 32517.0
+offset_top = 8535.0
+offset_right = 32606.0
+offset_bottom = 8566.0
+text = "Корошка"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1045" parent="Countries/62/Regions" index="10" instance=ExtResource("4_1uouy")]
+
+[node name="1325" parent="Countries/62/Regions/1045/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32655, 8574, 32681, 8610, 32712, 8611, 32739, 8603, 32757, 8601, 32759, 8589, 32748, 8571, 32730, 8551, 32727, 8532, 32713, 8519, 32710, 8504, 32666, 8504, 32662, 8521, 32646, 8540, 32634, 8556)
+
+[node name="RegionName" parent="Countries/62/Regions/1045" index="1"]
+offset_left = 32644.0
+offset_top = 8548.0
+offset_right = 32733.0
+offset_bottom = 8579.0
+text = "Подравска"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1046" parent="Countries/62/Regions" index="11" instance=ExtResource("4_1uouy")]
+
+[node name="1326" parent="Countries/62/Regions/1046/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32760, 8589, 32777, 8582, 32790, 8574, 32797, 8556, 32855, 8555, 32854, 8542, 32812, 8503, 32806, 8482, 32794, 8473, 32789, 8450, 32742, 8462, 32742, 8504, 32710, 8504, 32713, 8519, 32727, 8532, 32729, 8550, 32748, 8571)
+
+[node name="RegionName" parent="Countries/62/Regions/1046" index="1"]
+offset_left = 32737.0
+offset_top = 8510.0
+offset_right = 32826.0
+offset_bottom = 8541.0
+text = "Помурска"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="CountryName" parent="Countries/62" index="1"]
+offset_left = 32310.0
+offset_top = 8625.0
+offset_right = 32602.0
+offset_bottom = 8683.0
+theme_override_font_sizes/font_size = 40
+text = "Словения"
+
+[node name="63" parent="Countries" instance=ExtResource("4_wk2pb")]
+_color = Color(0.658823, 0.595265, 0.995301, 1)
+_zoom = 6.0
+
+[node name="1047" parent="Countries/63/Regions" index="0" instance=ExtResource("4_1uouy")]
+
+[node name="1327" parent="Countries/63/Regions/1047/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32270, 8808, 32262, 8858, 32290, 8886, 32297, 8907, 32303, 8937, 32314, 8963, 32332, 8976, 32354, 8969, 32359, 8942, 32370, 8921, 32378, 8908, 32378, 8802, 32358, 8802, 32331, 8813)
+
+[node name="RegionName" parent="Countries/63/Regions/1047" index="1"]
+offset_left = 32737.0
+offset_top = 8510.0
+offset_right = 32826.0
+offset_bottom = 8541.0
+text = "Помурска"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1048" parent="Countries/63/Regions" index="1" instance=ExtResource("4_1uouy")]
+
+[node name="1328" parent="Countries/63/Regions/1048/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(32377, 8906, 32377, 8803, 32409, 8802, 32439, 8794, 32451, 8777, 32467, 8763, 32486, 8767, 32496, 8779, 32530, 8781, 32543, 8795, 32579, 8796, 32595, 8809, 32614, 8809, 32633, 8832, 32626, 8852, 32615, 8860, 32601, 8843, 32589, 8855, 32583, 8878, 32576, 8893, 32552, 8894, 32538, 8909, 32522, 8922, 32472, 8925, 32457, 8906, 32459, 8876, 32469, 8873, 32473, 8847, 32425, 8846, 32407, 8861, 32404, 8887)
+
+[node name="RegionName" parent="Countries/63/Regions/1048" index="1"]
+offset_left = 32737.0
+offset_top = 8510.0
+offset_right = 32826.0
+offset_bottom = 8541.0
+text = "Помурска"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="CountryName" parent="Countries/63" index="1"]
+offset_left = 32310.0
+offset_top = 8625.0
+offset_right = 32602.0
+offset_bottom = 8683.0
+theme_override_font_sizes/font_size = 40
+text = "Словения"
+
 [editable path="Countries/2"]
 [editable path="Countries/2/Regions/2"]
 [editable path="Countries/2/Regions/3"]
@@ -16121,3 +16327,19 @@ text = "Македония"
 [editable path="Countries/61/Regions/1032"]
 [editable path="Countries/61/Regions/1033"]
 [editable path="Countries/61/Regions/1034"]
+[editable path="Countries/62"]
+[editable path="Countries/62/Regions/1035"]
+[editable path="Countries/62/Regions/1036"]
+[editable path="Countries/62/Regions/1037"]
+[editable path="Countries/62/Regions/1038"]
+[editable path="Countries/62/Regions/1039"]
+[editable path="Countries/62/Regions/1040"]
+[editable path="Countries/62/Regions/1041"]
+[editable path="Countries/62/Regions/1042"]
+[editable path="Countries/62/Regions/1043"]
+[editable path="Countries/62/Regions/1044"]
+[editable path="Countries/62/Regions/1045"]
+[editable path="Countries/62/Regions/1046"]
+[editable path="Countries/63"]
+[editable path="Countries/63/Regions/1047"]
+[editable path="Countries/63/Regions/1048"]
