@@ -4,7 +4,7 @@ class_name Main
 
 func _ready()->void:
 	print('start game:',  Time.get_time_dict_from_system());
-	GameServer.connect_db("test2");
+	GameServer.connect_db("test3");
 	
 	$Game/Map.country_download_server();
 	$Game/Map.region_download_server();
