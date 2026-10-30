@@ -14339,7 +14339,7 @@ label_settings = ExtResource("8_vxg7k")
 [node name="983" parent="Countries/59/Regions" index="14" instance=ExtResource("4_1uouy")]
 
 [node name="1263" parent="Countries/59/Regions/983/Elements" index="0" instance=ExtResource("6_8ufhg")]
-polygon = PackedVector2Array(34103, 9328, 34063, 9286, 34039, 9254, 34041, 9182, 34060, 9151, 34061, 9129, 34079, 9117, 34104, 9118, 34104, 9130, 34136, 9137, 34135, 9177, 34120, 9183, 34122, 9210, 34135, 9227, 34150, 9248, 34141, 9268, 34116, 9309)
+polygon = PackedVector2Array(34103, 9328, 34063, 9286, 34039, 9254, 34041, 9182, 34049, 9168, 34059, 9151, 34062, 9127, 34077, 9117, 34104, 9118, 34104, 9130, 34136, 9137, 34135, 9177, 34120, 9183, 34122, 9210, 34135, 9227, 34150, 9248, 34141, 9268, 34116, 9309)
 
 [node name="RegionName" parent="Countries/59/Regions/983" index="1"]
 offset_left = 34042.0
@@ -14525,6 +14525,408 @@ offset_right = 34718.0
 offset_bottom = 9522.0
 theme_override_font_sizes/font_size = 40
 text = "Болгария"
+
+[node name="60" parent="Countries" instance=ExtResource("4_wk2pb")]
+_color = Color(0.445889, 0.723594, 0.685399, 1)
+_zoom = 6.0
+
+[node name="997" parent="Countries/60/Regions" index="0" instance=ExtResource("4_1uouy")]
+
+[node name="1277" parent="Countries/60/Regions/997/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33510, 8636, 33512, 8668, 33492, 8687, 33498, 8703, 33509, 8718, 33510, 8728, 33588, 8732, 33606, 8747, 33605, 8766, 33593, 8778, 33607, 8802, 33626, 8801, 33639, 8780, 33658, 8737, 33663, 8714, 33633, 8698, 33618, 8696, 33574, 8648, 33573, 8635)
+
+[node name="RegionName" parent="Countries/60/Regions/997" index="1"]
+offset_left = 33517.0
+offset_top = 8681.0
+offset_right = 33606.0
+offset_bottom = 8712.0
+text = "Северно-Банатский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="998" parent="Countries/60/Regions" index="1" instance=ExtResource("4_1uouy")]
+
+[node name="1278" parent="Countries/60/Regions/998/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33508, 8749, 33500, 8760, 33478, 8744, 33462, 8729, 33440, 8712, 33422, 8703, 33410, 8668, 33422, 8650, 33430, 8648, 33440, 8634, 33463, 8636, 33510, 8636, 33512, 8668, 33492, 8687, 33498, 8703, 33509, 8718, 33510, 8728)
+
+[node name="RegionName" parent="Countries/60/Regions/998" index="1"]
+offset_left = 33407.0
+offset_top = 8663.0
+offset_right = 33496.0
+offset_bottom = 8694.0
+text = "Северно-Бачский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="999" parent="Countries/60/Regions" index="2" instance=ExtResource("4_1uouy")]
+
+[node name="1279" parent="Countries/60/Regions/999/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33477, 8744, 33462, 8767, 33438, 8780, 33420, 8792, 33412, 8813, 33396, 8813, 33380, 8795, 33336, 8797, 33333, 8784, 33320, 8774, 33320, 8738, 33302, 8700, 33308, 8686, 33376, 8684, 33384, 8670, 33410, 8668, 33422, 8703, 33440, 8711, 33462, 8729)
+
+[node name="RegionName" parent="Countries/60/Regions/999" index="1"]
+offset_left = 33333.0
+offset_top = 8730.0
+offset_right = 33422.0
+offset_bottom = 8761.0
+text = "Западно-Бачский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1000" parent="Countries/60/Regions" index="3" instance=ExtResource("4_1uouy")]
+
+[node name="1280" parent="Countries/60/Regions/1000/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33337, 8797, 33337, 8822, 33350, 8832, 33356, 8846, 33382, 8846, 33391, 8861, 33528, 8861, 33550, 8844, 33560, 8836, 33559, 8822, 33545, 8810, 33543, 8793, 33530, 8778, 33543, 8765, 33546, 8729, 33510, 8728, 33508, 8749, 33500, 8759, 33478, 8744, 33463, 8766, 33438, 8780, 33420, 8792, 33412, 8813, 33396, 8813, 33380, 8795)
+
+[node name="RegionName" parent="Countries/60/Regions/1000" index="1"]
+offset_left = 33430.0
+offset_top = 8798.0
+offset_right = 33519.0
+offset_bottom = 8829.0
+text = "Южно-Бачский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1001" parent="Countries/60/Regions" index="4" instance=ExtResource("4_1uouy")]
+
+[node name="1281" parent="Countries/60/Regions/1001/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33559, 8836, 33583, 8853, 33596, 8870, 33615, 8870, 33625, 8859, 33637, 8844, 33658, 8844, 33671, 8861, 33688, 8842, 33718, 8826, 33709, 8815, 33691, 8810, 33687, 8730, 33676, 8730, 33663, 8714, 33658, 8737, 33640, 8779, 33626, 8801, 33608, 8802, 33593, 8778, 33604, 8766, 33606, 8747, 33588, 8732, 33546, 8729, 33543, 8764, 33530, 8777, 33543, 8793, 33545, 8810, 33559, 8822)
+
+[node name="RegionName" parent="Countries/60/Regions/1001" index="1"]
+offset_left = 33569.0
+offset_top = 8798.0
+offset_right = 33658.0
+offset_bottom = 8829.0
+text = "Средне-Банатский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1002" parent="Countries/60/Regions" index="5" instance=ExtResource("4_1uouy")]
+
+[node name="1282" parent="Countries/60/Regions/1002/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33596, 8870, 33589, 8911, 33563, 8935, 33558, 8966, 33546, 8987, 33531, 8988, 33507, 8972, 33485, 8969, 33474, 8942, 33416, 8942, 33368, 8939, 33369, 8885, 33390, 8860, 33528, 8861, 33559, 8837, 33583, 8853)
+
+[node name="RegionName" parent="Countries/60/Regions/1002" index="1"]
+offset_left = 33440.0
+offset_top = 8884.0
+offset_right = 33529.0
+offset_bottom = 8915.0
+text = "Сремский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1003" parent="Countries/60/Regions" index="6" instance=ExtResource("4_1uouy")]
+
+[node name="1283" parent="Countries/60/Regions/1003/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33615, 8870, 33621, 8892, 33636, 8894, 33655, 8904, 33639, 8924, 33657, 8939, 33662, 8961, 33689, 8986, 33706, 8988, 33725, 8984, 33741, 8972, 33754, 8971, 33797, 8956, 33819, 8955, 33829, 8948, 33835, 8910, 33829, 8870, 33807, 8873, 33797, 8860, 33770, 8856, 33763, 8844, 33740, 8844, 33733, 8829, 33719, 8826, 33687, 8842, 33671, 8861, 33658, 8844, 33636, 8844, 33625, 8859)
+
+[node name="RegionName" parent="Countries/60/Regions/1003" index="1"]
+offset_left = 33679.0
+offset_top = 8890.0
+offset_right = 33768.0
+offset_bottom = 8921.0
+text = "Южно-Банатский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1004" parent="Countries/60/Regions" index="7" instance=ExtResource("4_1uouy")]
+
+[node name="1284" parent="Countries/60/Regions/1004/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33546, 8987, 33554, 9016, 33573, 9025, 33578, 9065, 33592, 9086, 33607, 9086, 33633, 9067, 33643, 9036, 33661, 9038, 33677, 9051, 33691, 9057, 33705, 9069, 33720, 9054, 33721, 9036, 33706, 9019, 33704, 8988, 33691, 8986, 33662, 8961, 33656, 8938, 33639, 8924, 33654, 8904, 33637, 8894, 33621, 8892, 33615, 8870, 33596, 8870, 33589, 8911, 33563, 8935, 33558, 8966)
+
+[node name="RegionName" parent="Countries/60/Regions/1004" index="1"]
+offset_left = 33569.0
+offset_top = 8958.0
+offset_right = 33658.0
+offset_bottom = 8989.0
+text = "Белград"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1005" parent="Countries/60/Regions" index="8" instance=ExtResource("4_1uouy")]
+
+[node name="1285" parent="Countries/60/Regions/1005/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33531, 8988, 33528, 9035, 33501, 9037, 33482, 9023, 33466, 9021, 33441, 9045, 33432, 9059, 33442, 9070, 33483, 9103, 33480, 9115, 33447, 9136, 33424, 9122, 33409, 9104, 33389, 9100, 33380, 9067, 33387, 9022, 33401, 9011, 33407, 8989, 33415, 8978, 33414, 8942, 33474, 8942, 33484, 8969, 33508, 8972)
+
+[node name="RegionName" parent="Countries/60/Regions/1005" index="1"]
+offset_left = 33418.0
+offset_top = 8989.0
+offset_right = 33507.0
+offset_bottom = 9020.0
+text = "Мачванский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1006" parent="Countries/60/Regions" index="9" instance=ExtResource("4_1uouy")]
+
+[node name="1286" parent="Countries/60/Regions/1006/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33481, 9114, 33506, 9126, 33510, 9134, 33530, 9120, 33544, 9120, 33571, 9134, 33610, 9133, 33640, 9100, 33634, 9067, 33608, 9086, 33593, 9086, 33579, 9067, 33573, 9025, 33554, 9016, 33546, 8987, 33531, 8988, 33528, 9035, 33502, 9037, 33482, 9023, 33466, 9021, 33441, 9045, 33432, 9059, 33442, 9070, 33483, 9103)
+
+[node name="RegionName" parent="Countries/60/Regions/1006" index="1"]
+offset_left = 33486.0
+offset_top = 9058.0
+offset_right = 33575.0
+offset_bottom = 9089.0
+text = "Колубарский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1007" parent="Countries/60/Regions" index="10" instance=ExtResource("4_1uouy")]
+
+[node name="1287" parent="Countries/60/Regions/1007/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33446, 9135, 33453, 9159, 33447, 9179, 33437, 9163, 33401, 9163, 33434, 9214, 33463, 9247, 33461, 9260, 33439, 9271, 33408, 9283, 33411, 9299, 33463, 9347, 33497, 9363, 33512, 9377, 33527, 9380, 33536, 9393, 33558, 9393, 33567, 9406, 33589, 9407, 33593, 9376, 33610, 9358, 33596, 9343, 33576, 9340, 33563, 9324, 33555, 9290, 33547, 9277, 33561, 9259, 33576, 9257, 33589, 9249, 33592, 9226, 33573, 9206, 33570, 9134, 33545, 9120, 33530, 9120, 33510, 9133, 33506, 9126, 33482, 9114)
+
+[node name="RegionName" parent="Countries/60/Regions/1007" index="1"]
+offset_left = 33474.0
+offset_top = 9214.0
+offset_right = 33563.0
+offset_bottom = 9245.0
+text = "Златиборский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1008" parent="Countries/60/Regions" index="11" instance=ExtResource("4_1uouy")]
+
+[node name="1288" parent="Countries/60/Regions/1008/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33639, 9100, 33652, 9120, 33662, 9143, 33684, 9180, 33675, 9195, 33669, 9230, 33655, 9258, 33626, 9295, 33626, 9312, 33637, 9325, 33637, 9346, 33624, 9359, 33610, 9358, 33595, 9342, 33576, 9340, 33564, 9325, 33555, 9289, 33547, 9277, 33561, 9258, 33575, 9257, 33589, 9249, 33592, 9225, 33573, 9206, 33570, 9134, 33610, 9133)
+
+[node name="RegionName" parent="Countries/60/Regions/1008" index="1"]
+offset_left = 33582.0
+offset_top = 9184.0
+offset_right = 33671.0
+offset_bottom = 9215.0
+text = "Моравичский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1009" parent="Countries/60/Regions" index="12" instance=ExtResource("4_1uouy")]
+
+[node name="1289" parent="Countries/60/Regions/1009/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33669, 9230, 33685, 9237, 33702, 9263, 33721, 9245, 33739, 9241, 33743, 9222, 33755, 9210, 33758, 9178, 33772, 9166, 33768, 9145, 33755, 9132, 33771, 9116, 33765, 9105, 33751, 9101, 33736, 9083, 33720, 9084, 33705, 9068, 33691, 9057, 33677, 9051, 33661, 9038, 33644, 9036, 33633, 9067, 33640, 9101, 33652, 9121, 33662, 9143, 33684, 9180, 33675, 9195)
+
+[node name="RegionName" parent="Countries/60/Regions/1009" index="1"]
+offset_left = 33664.0
+offset_top = 9124.0
+offset_right = 33753.0
+offset_bottom = 9155.0
+text = "Шумандийский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1010" parent="Countries/60/Regions" index="13" instance=ExtResource("4_1uouy")]
+
+[node name="1290" parent="Countries/60/Regions/1010/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33765, 9105, 33774, 9078, 33783, 9064, 33783, 9047, 33770, 9032, 33766, 9015, 33758, 9003, 33753, 8971, 33741, 8971, 33724, 8984, 33703, 8989, 33706, 9019, 33721, 9036, 33721, 9053, 33705, 9067, 33720, 9084, 33737, 9083, 33752, 9102)
+
+[node name="RegionName" parent="Countries/60/Regions/1010" index="1"]
+offset_left = 33700.0
+offset_top = 9017.0
+offset_right = 33789.0
+offset_bottom = 9048.0
+text = "Подунайский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1011" parent="Countries/60/Regions" index="14" instance=ExtResource("4_1uouy")]
+
+[node name="1291" parent="Countries/60/Regions/1011/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33783, 9064, 33813, 9078, 33834, 9101, 33848, 9085, 33865, 9105, 33882, 9123, 33885, 9142, 33913, 9148, 33929, 9134, 33928, 9118, 33900, 9086, 33908, 9069, 33919, 9047, 33930, 9022, 33919, 9003, 33885, 9004, 33876, 8994, 33851, 8988, 33842, 8975, 33820, 8971, 33819, 8955, 33798, 8955, 33753, 8972, 33757, 9003, 33766, 9016, 33770, 9032, 33783, 9047)
+
+[node name="RegionName" parent="Countries/60/Regions/1011" index="1"]
+offset_left = 33803.0
+offset_top = 9017.0
+offset_right = 33892.0
+offset_bottom = 9048.0
+text = "Браничевский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1012" parent="Countries/60/Regions" index="15" instance=ExtResource("4_1uouy")]
+
+[node name="1292" parent="Countries/60/Regions/1012/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33885, 9142, 33882, 9177, 33911, 9180, 33941, 9212, 33958, 9198, 33966, 9176, 33975, 9160, 33986, 9137, 34007, 9134, 34049, 9168, 34059, 9151, 34062, 9127, 34077, 9117, 34073, 9103, 34056, 9102, 34052, 9085, 34043, 9068, 34040, 9044, 34084, 9035, 34077, 9016, 34066, 9003, 34008, 9007, 34003, 9020, 33991, 9023, 33988, 9038, 33972, 9045, 33960, 9040, 33960, 9021, 33930, 9022, 33908, 9069, 33900, 9086, 33928, 9118, 33929, 9134, 33913, 9148)
+
+[node name="RegionName" parent="Countries/60/Regions/1012" index="1"]
+offset_left = 33942.0
+offset_top = 9081.0
+offset_right = 34031.0
+offset_bottom = 9112.0
+text = "Борский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1013" parent="Countries/60/Regions" index="16" instance=ExtResource("4_1uouy")]
+
+[node name="1293" parent="Countries/60/Regions/1013/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33882, 9177, 33866, 9209, 33863, 9235, 33876, 9265, 33892, 9295, 33915, 9296, 33927, 9281, 33948, 9282, 33966, 9294, 33999, 9309, 34016, 9329, 34045, 9330, 34058, 9343, 34087, 9312, 34063, 9286, 34040, 9254, 34042, 9181, 34049, 9168, 34007, 9135, 33985, 9137, 33966, 9176, 33957, 9199, 33941, 9212, 33911, 9180)
+
+[node name="RegionName" parent="Countries/60/Regions/1013" index="1"]
+offset_left = 33914.0
+offset_top = 9226.0
+offset_right = 34003.0
+offset_bottom = 9257.0
+text = "Заечарский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1014" parent="Countries/60/Regions" index="17" instance=ExtResource("4_1uouy")]
+
+[node name="1294" parent="Countries/60/Regions/1014/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33863, 9234, 33846, 9232, 33832, 9243, 33819, 9245, 33798, 9229, 33785, 9231, 33755, 9261, 33740, 9249, 33739, 9241, 33743, 9222, 33755, 9210, 33758, 9178, 33772, 9166, 33768, 9145, 33755, 9132, 33770, 9116, 33765, 9105, 33774, 9078, 33783, 9064, 33813, 9078, 33834, 9101, 33848, 9085, 33882, 9123, 33885, 9142, 33882, 9177, 33866, 9209)
+
+[node name="RegionName" parent="Countries/60/Regions/1014" index="1"]
+offset_left = 33784.0
+offset_top = 9140.0
+offset_right = 33873.0
+offset_bottom = 9171.0
+text = "Поморавский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1015" parent="Countries/60/Regions" index="18" instance=ExtResource("4_1uouy")]
+
+[node name="1295" parent="Countries/60/Regions/1015/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33755, 9261, 33750, 9292, 33726, 9296, 33720, 9310, 33733, 9324, 33732, 9349, 33716, 9357, 33692, 9359, 33683, 9398, 33633, 9452, 33623, 9426, 33596, 9420, 33590, 9407, 33593, 9376, 33610, 9358, 33624, 9359, 33636, 9346, 33637, 9324, 33626, 9312, 33626, 9294, 33655, 9258, 33669, 9229, 33684, 9237, 33701, 9262, 33722, 9245, 33739, 9241, 33740, 9249)
+
+[node name="RegionName" parent="Countries/60/Regions/1015" index="1"]
+offset_left = 33631.0
+offset_top = 9280.0
+offset_right = 33720.0
+offset_bottom = 9311.0
+text = "Рашский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1016" parent="Countries/60/Regions" index="19" instance=ExtResource("4_1uouy")]
+
+[node name="1296" parent="Countries/60/Regions/1016/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33716, 9357, 33744, 9373, 33759, 9379, 33776, 9354, 33795, 9332, 33827, 9326, 33849, 9311, 33848, 9294, 33835, 9276, 33831, 9243, 33819, 9245, 33798, 9229, 33785, 9231, 33755, 9260, 33750, 9291, 33726, 9296, 33720, 9310, 33732, 9324, 33732, 9349)
+
+[node name="RegionName" parent="Countries/60/Regions/1016" index="1"]
+offset_left = 33732.0
+offset_top = 9293.0
+offset_right = 33821.0
+offset_bottom = 9324.0
+text = "Расинский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1017" parent="Countries/60/Regions" index="20" instance=ExtResource("4_1uouy")]
+
+[node name="1297" parent="Countries/60/Regions/1017/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33827, 9326, 33859, 9348, 33878, 9365, 33892, 9381, 33918, 9359, 33935, 9356, 33949, 9342, 33968, 9346, 33979, 9361, 33990, 9344, 34016, 9329, 33999, 9309, 33968, 9295, 33947, 9282, 33928, 9280, 33915, 9295, 33892, 9295, 33881, 9274, 33862, 9235, 33846, 9232, 33831, 9244, 33835, 9277, 33848, 9294, 33849, 9310)
+
+[node name="RegionName" parent="Countries/60/Regions/1017" index="1"]
+offset_left = 33860.0
+offset_top = 9296.0
+offset_right = 33949.0
+offset_bottom = 9327.0
+text = "Нишавский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1018" parent="Countries/60/Regions" index="21" instance=ExtResource("4_1uouy")]
+
+[node name="1298" parent="Countries/60/Regions/1018/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33980, 9360, 34011, 9382, 34038, 9404, 34073, 9439, 34086, 9436, 34133, 9438, 34133, 9422, 34138, 9400, 34149, 9388, 34153, 9358, 34130, 9354, 34104, 9328, 34087, 9312, 34058, 9343, 34045, 9330, 34016, 9329, 33990, 9344)
+
+[node name="RegionName" parent="Countries/60/Regions/1018" index="1"]
+offset_left = 34031.0
+offset_top = 9359.0
+offset_right = 34120.0
+offset_bottom = 9390.0
+text = "Пиротский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1019" parent="Countries/60/Regions" index="22" instance=ExtResource("4_1uouy")]
+
+[node name="1299" parent="Countries/60/Regions/1019/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33759, 9379, 33782, 9403, 33805, 9410, 33816, 9424, 33841, 9427, 33866, 9405, 33872, 9384, 33892, 9380, 33878, 9365, 33859, 9348, 33827, 9326, 33795, 9332, 33776, 9355)
+
+[node name="RegionName" parent="Countries/60/Regions/1019" index="1"]
+offset_left = 33773.0
+offset_top = 9359.0
+offset_right = 33862.0
+offset_bottom = 9390.0
+text = "Топлический Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1020" parent="Countries/60/Regions" index="23" instance=ExtResource("4_1uouy")]
+
+[node name="1300" parent="Countries/60/Regions/1020/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33841, 9428, 33846, 9451, 33846, 9483, 33909, 9485, 33925, 9474, 33928, 9455, 33946, 9449, 33968, 9434, 33983, 9445, 34007, 9467, 34025, 9468, 34040, 9456, 34057, 9459, 34074, 9453, 34085, 9436, 34074, 9440, 34039, 9404, 34011, 9382, 33980, 9360, 33968, 9346, 33948, 9341, 33935, 9357, 33918, 9359, 33892, 9380, 33873, 9383, 33866, 9405)
+
+[node name="RegionName" parent="Countries/60/Regions/1020" index="1"]
+offset_left = 33901.0
+offset_top = 9399.0
+offset_right = 33990.0
+offset_bottom = 9430.0
+text = "Ябланичский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1021" parent="Countries/60/Regions" index="24" instance=ExtResource("4_1uouy")]
+
+[node name="1301" parent="Countries/60/Regions/1021/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33634, 9451, 33655, 9467, 33668, 9496, 33688, 9520, 33717, 9518, 33737, 9537, 33757, 9511, 33766, 9489, 33762, 9463, 33750, 9442, 33737, 9411, 33742, 9372, 33717, 9356, 33692, 9358, 33682, 9399)
+
+[node name="RegionName" parent="Countries/60/Regions/1021" index="1"]
+offset_left = 33658.0
+offset_top = 9439.0
+offset_right = 33747.0
+offset_bottom = 9470.0
+text = "Косовско-Митровский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1022" parent="Countries/60/Regions" index="25" instance=ExtResource("4_1uouy")]
+
+[node name="1302" parent="Countries/60/Regions/1022/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33742, 9373, 33737, 9411, 33750, 9441, 33762, 9463, 33766, 9490, 33757, 9512, 33737, 9537, 33717, 9518, 33688, 9520, 33689, 9538, 33705, 9550, 33717, 9569, 33748, 9594, 33731, 9618, 33737, 9639, 33767, 9631, 33787, 9614, 33798, 9618, 33802, 9628, 33840, 9631, 33853, 9615, 33821, 9591, 33803, 9566, 33817, 9554, 33818, 9514, 33834, 9499, 33848, 9513, 33847, 9483, 33846, 9450, 33841, 9428, 33815, 9424, 33804, 9410, 33782, 9403, 33758, 9378)
+
+[node name="RegionName" parent="Countries/60/Regions/1022" index="1"]
+offset_left = 33753.0
+offset_top = 9484.0
+offset_right = 33842.0
+offset_bottom = 9515.0
+text = "Косовский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1023" parent="Countries/60/Regions" index="26" instance=ExtResource("4_1uouy")]
+
+[node name="1303" parent="Countries/60/Regions/1023/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33717, 9569, 33677, 9568, 33666, 9601, 33652, 9600, 33633, 9583, 33625, 9579, 33616, 9565, 33608, 9562, 33602, 9534, 33593, 9528, 33595, 9477, 33627, 9471, 33633, 9451, 33655, 9467, 33669, 9497, 33688, 9520, 33689, 9538, 33705, 9550)
+
+[node name="RegionName" parent="Countries/60/Regions/1023" index="1"]
+offset_left = 33599.0
+offset_top = 9514.0
+offset_right = 33688.0
+offset_bottom = 9545.0
+text = "Печский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1024" parent="Countries/60/Regions" index="27" instance=ExtResource("4_1uouy")]
+
+[node name="1304" parent="Countries/60/Regions/1024/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33666, 9601, 33679, 9619, 33688, 9636, 33688, 9708, 33704, 9699, 33721, 9691, 33725, 9663, 33736, 9658, 33738, 9640, 33732, 9619, 33748, 9593, 33717, 9569, 33677, 9568)
+
+[node name="RegionName" parent="Countries/60/Regions/1024" index="1"]
+offset_left = 33671.0
+offset_top = 9600.0
+offset_right = 33760.0
+offset_bottom = 9631.0
+text = "Призренский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1025" parent="Countries/60/Regions" index="28" instance=ExtResource("4_1uouy")]
+
+[node name="1305" parent="Countries/60/Regions/1025/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33848, 9512, 33847, 9483, 33909, 9485, 33910, 9508, 33909, 9539, 33896, 9546, 33892, 9563, 33882, 9575, 33879, 9595, 33862, 9605, 33854, 9614, 33821, 9591, 33802, 9566, 33818, 9554, 33818, 9514, 33833, 9499)
+
+[node name="RegionName" parent="Countries/60/Regions/1025" index="1"]
+offset_left = 33818.0
+offset_top = 9526.0
+offset_right = 33907.0
+offset_bottom = 9557.0
+text = "Косовско-Помаравский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="1026" parent="Countries/60/Regions" index="29" instance=ExtResource("4_1uouy")]
+
+[node name="1306" parent="Countries/60/Regions/1026/Elements" index="0" instance=ExtResource("6_8ufhg")]
+polygon = PackedVector2Array(33880, 9595, 33922, 9597, 33930, 9582, 34042, 9580, 34051, 9571, 34069, 9560, 34072, 9519, 34061, 9517, 34057, 9459, 34041, 9456, 34024, 9469, 34007, 9467, 33983, 9445, 33968, 9434, 33946, 9449, 33928, 9455, 33925, 9474, 33909, 9485, 33910, 9507, 33909, 9539, 33897, 9546, 33892, 9563, 33882, 9575)
+
+[node name="RegionName" parent="Countries/60/Regions/1026" index="1"]
+offset_left = 33937.0
+offset_top = 9508.0
+offset_right = 34026.0
+offset_bottom = 9539.0
+text = "Пчиньский Округ"
+label_settings = ExtResource("8_vxg7k")
+
+[node name="CountryName" parent="Countries/60" index="1"]
+offset_left = 33606.0
+offset_top = 9164.0
+offset_right = 33898.0
+offset_bottom = 9222.0
+theme_override_font_sizes/font_size = 40
+text = "Сербия"
 
 [editable path="Countries/2"]
 [editable path="Countries/2/Regions/2"]
@@ -15563,3 +15965,34 @@ text = "Болгария"
 [editable path="Countries/59/Regions/994"]
 [editable path="Countries/59/Regions/995"]
 [editable path="Countries/59/Regions/996"]
+[editable path="Countries/60"]
+[editable path="Countries/60/Regions/997"]
+[editable path="Countries/60/Regions/998"]
+[editable path="Countries/60/Regions/999"]
+[editable path="Countries/60/Regions/1000"]
+[editable path="Countries/60/Regions/1001"]
+[editable path="Countries/60/Regions/1002"]
+[editable path="Countries/60/Regions/1003"]
+[editable path="Countries/60/Regions/1004"]
+[editable path="Countries/60/Regions/1005"]
+[editable path="Countries/60/Regions/1006"]
+[editable path="Countries/60/Regions/1007"]
+[editable path="Countries/60/Regions/1008"]
+[editable path="Countries/60/Regions/1009"]
+[editable path="Countries/60/Regions/1010"]
+[editable path="Countries/60/Regions/1011"]
+[editable path="Countries/60/Regions/1012"]
+[editable path="Countries/60/Regions/1013"]
+[editable path="Countries/60/Regions/1014"]
+[editable path="Countries/60/Regions/1015"]
+[editable path="Countries/60/Regions/1016"]
+[editable path="Countries/60/Regions/1017"]
+[editable path="Countries/60/Regions/1018"]
+[editable path="Countries/60/Regions/1019"]
+[editable path="Countries/60/Regions/1020"]
+[editable path="Countries/60/Regions/1021"]
+[editable path="Countries/60/Regions/1022"]
+[editable path="Countries/60/Regions/1023"]
+[editable path="Countries/60/Regions/1024"]
+[editable path="Countries/60/Regions/1025"]
+[editable path="Countries/60/Regions/1026"]
