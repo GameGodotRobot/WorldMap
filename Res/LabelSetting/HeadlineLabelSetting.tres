@@ -6,3 +6,4 @@
 line_spacing = -4.0
 font = ExtResource("1_sv8hm")
 font_size = 24
+shadow_size = 5
